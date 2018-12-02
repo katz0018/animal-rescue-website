@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Saas-website</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <main role="main" id="main" tabindex="0">
+    <section>
+      <form class="gutter-1-2 push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+        <fieldset>
+          <legend class="not-bold kilo">Come try us out, you wont be disappointed</legend>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1">
+              <div class="push">
+                <label for="name">Name</label>
+                <input id="name" required>
+              </div>
+              <div class="push">
+                <label for="email">Your email</label>
+                <input id="email" type="email" name="email" required>
+              </div>
+              <div class="push">
+                <label for="subject">Plans</label>
+                <select id="subject" name="subject">
+                  <option>Tests</option>
+                  <option>Annual plan</option>
+                  <option>Test</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="not-bold push-1-4">Subscribe to daily emails</legend>
+          <div>
+            <input type="radio" id="yes-2" name="first-aid">
+            <label for="yes-2">Yes</label>
+            <input type="radio" id="no-1" name="first-aid">
+            <label for="no-1">No</label>
+          </div>
+        </fieldset>
+        <div class="pad-b-1-2 pad-t-1-2">
+          <label class="pad-b-1-2" for="message">Please let us know any comments or questions you may have.<span class="italic"> (optional.)</span></label>
+          <textarea id="message"></textarea>
+        </div>
+
+        <div class="push-2 pad-t-1-2 text-center">
+          <button class="btn btn-new" type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+  </footer>
+
+
+</body>
+</html>
