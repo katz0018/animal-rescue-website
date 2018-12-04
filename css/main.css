@@ -11,6 +11,21 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+.cat {
+  overflow: hidden;
+  height: 500px;
+}
 .gradient {
-  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5););
+  background: linear-gradient(to right, rgba(253, 245,226,.9), rgba(253, 245,226,.1)), url('../images/cat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .cat {
+    height:700px;
+  }
+
 }
