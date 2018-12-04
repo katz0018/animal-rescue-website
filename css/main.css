@@ -1,0 +1,16 @@
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #000;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5););
+}
