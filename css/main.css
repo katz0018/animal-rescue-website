@@ -3,6 +3,10 @@ nav ul li a {
   text-decoration: none;
 }
 
+a {
+  color: #000;
+}
+
 nav ul li a:hover {
   border-bottom: 2px solid #000;
 }
@@ -19,6 +23,10 @@ html {
   width: 30%;
 }
 
+.btn {
+  box-shadow: 2px 2px 8px #777;
+}
+
 .cat {
   overflow: hidden;
   height: 500px;
@@ -27,7 +35,22 @@ html {
   background: linear-gradient(to right, rgba(253, 245,226,.9), rgba(253, 245,226,.1)), url('../images/cat.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+.text-grey {
+  color: #474747;
+}
+
+.solid-bg {
+  background-color: rgba(253, 245,226,.9);
+}
+
+.solid-blue-bg {
+  background-color: rgba(142, 187, 188, .9);
+}
+
+.funds {
+  background: url('../images/donate-cat.svg')
 }
 
 @media only screen and (min-width: 60em) {
@@ -36,9 +59,4 @@ html {
     height:700px;
   }
 
-}
-
-
-.text-grey {
-  color: #464646;
 }
