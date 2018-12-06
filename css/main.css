@@ -19,6 +19,14 @@ html {
   font-family: 'Pacifico', cursive;
 }
 
+.friends:hover {
+  filter: grayscale(0);
+}
+
+.friends {
+  filter: grayscale(100%)
+}
+
 .width {
   width: 30%;
 }
