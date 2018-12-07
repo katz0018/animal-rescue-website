@@ -23,8 +23,16 @@ html {
   filter: grayscale(0);
 }
 
+.middle {
+  bottom: 2em;
+  position: absolute;
+  padding-left: 1em;
+}
+
+
 .friends {
-  filter: grayscale(100%)
+  filter: grayscale(100%);
+  position: relative;
 }
 
 .width {
