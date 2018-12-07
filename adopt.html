@@ -17,13 +17,13 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header class="gradient" role="banner">
+  <header class="push-2" role="banner">
     <div class="gutter-2 grid grid-middle pad-t pad-b">
       <div class="unit xs-1-3 s-1-3 m-1-3 l-1-3">
         <i class="icon i-128">
           <svg><use xlink:href="images/icons.svg#logo"></use></svg>
         </i>
-        <h1 class="visually-hidden">Hairless Friends Pet Rescue</h1>
+        <h1 class="visually-hidden">Hairless Friends adoption page</h1>
       </div>
 
       <div class="unit xs-2-3 s-2-3 m-2-3 l-2-3">
@@ -41,40 +41,61 @@
 
   <main role="main" id="main" tabindex="0">
     <section>
-      <form class="gutter-1-2 push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
+      <form class="push-0" method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
         <fieldset>
-          <legend class="not-bold kilo">Come try us out, you wont be disappointed</legend>
-          <div class="grid">
-            <div class="unit xs-1 s-1 m-1 l-1">
-              <div class="push">
-                <label for="name">Name</label>
-                <input id="name" required>
-              </div>
-              <div class="push">
-                <label for="email">Your email</label>
-                <input id="email" type="email" name="email" required>
-              </div>
-              <div class="push">
-                <label for="subject">Plans</label>
-                <select id="subject" name="subject">
-                  <option>Tests</option>
-                  <option>Annual plan</option>
-                  <option>Test</option>
-                </select>
-              </div>
+          <legend class="gutter-2 push not-bold kilo">Fill out our form and your hairless friend will be waiting for you to pick them up.</legend>
+          <div class="gutter grid">
+            <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter push">
+              <label for="name">Your Name</label>
+              <input id="name" required>
+            </div>
+
+            <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter push">
+              <label for="name">Your Last Name</label>
+              <input id="name" required>
+            </div>
+
+            <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter push">
+              <label for="email">Your email</label>
+              <input id="email" type="email" name="email" required>
+            </div>
+
+            <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter push">
+              <label for="number">Phone number</label>
+              <input id="number" type="number" name="number" required>
+            </div>
+
+            <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter push">
+              <label for="number">Cell number</label>
+              <input id="number" type="number" name="number" required>
+            </div>
+
+            <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter push">
+              <label for="subject">Number of family members</label>
+              <select id="subject" name="subject">
+                <option></option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5+</option>
+              </select>
+            </div>
+          </div>
+
+
             </div>
           </div>
         </fieldset>
         <fieldset>
-          <legend class="not-bold push-1-4">Subscribe to daily emails</legend>
-          <div>
+          <legend class="gutter-2 not-bold push-1-4">Subscribe to daily emails</legend>
+          <div class="gutter-2">
             <input type="radio" id="yes-2" name="first-aid">
             <label for="yes-2">Yes</label>
             <input type="radio" id="no-1" name="first-aid">
             <label for="no-1">No</label>
           </div>
         </fieldset>
-        <div class="pad-b-1-2 pad-t-1-2">
+        <div class="gutter-2 pad-b-1-2 pad-t-1-2">
           <label class="pad-b-1-2" for="message">Please let us know any comments or questions you may have.<span class="italic"> (optional.)</span></label>
           <textarea id="message"></textarea>
         </div>
