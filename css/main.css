@@ -15,6 +15,10 @@ nav ul li a:focus {
   border-bottom: 2px solid #555;
 }
 
+nav ul li a:active {
+  border-bottom: 2px solid #555;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
 }
