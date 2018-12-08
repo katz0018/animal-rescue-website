@@ -62,12 +62,18 @@
 
             <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter push">
               <label for="number">Phone number</label>
-              <input id="number" type="number" name="number" required>
+              <input id="tel" type="tel" name="tel" required>
             </div>
 
             <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter push">
-              <label for="number">Cell number</label>
-              <input id="number" type="number" name="number" required>
+              <label for="subject">Do you have any other pets? if so how many and what are they?</label>
+              <select id="subject" name="subject">
+                <option>none</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5+</option>
+              </select>
             </div>
 
             <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter push">
@@ -84,6 +90,24 @@
         </fieldset>
         <fieldset>
           <legend class="gutter-2 not-bold push-1-4">Subscribe to daily emails</legend>
+          <div class="gutter-2">
+            <input type="radio" id="yes-2" name="first-aid">
+            <label for="yes-2">Yes</label>
+            <input type="radio" id="no-1" name="first-aid">
+            <label for="no-1">No</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="gutter-2 not-bold push-1-4">Do you agree to adopting this animal, and loving them every day of your life?</legend>
+          <div class="gutter-2">
+            <input type="radio" id="yes-2" name="first-aid">
+            <label for="yes-2">Yes</label>
+            <input type="radio" id="no-1" name="first-aid">
+            <label for="no-1">No</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="gutter-2 not-bold push-1-4">Do you have any allergies?</legend>
           <div class="gutter-2">
             <input type="radio" id="yes-2" name="first-aid">
             <label for="yes-2">Yes</label>
