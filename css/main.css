@@ -12,7 +12,7 @@ nav ul li a:hover {
 }
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: Open Sans, sans-serif;
 }
 
 .pacifico {
@@ -47,7 +47,7 @@ html {
   height: 500px;
 }
 .gradient {
-  background: linear-gradient(to right,rgba(253, 245,226,.9),rgba(253, 245,226,.1)),url('../images/cat.jpg');
+  background: linear-gradient(to right, rgba(253, 245, 226, .9), rgba(253, 245, 226, .1)), url('../images/cat.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -57,7 +57,7 @@ html {
 }
 
 .solid-bg {
-  background-color: rgba(253, 245,226,.9);
+  background-color: rgba(253, 245, 226, .9);
 }
 
 .solid-blue-bg {
