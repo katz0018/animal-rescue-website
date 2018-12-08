@@ -12,11 +12,11 @@ nav ul li a:hover {
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .pacifico {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 .friends:hover {
@@ -28,7 +28,6 @@ html {
   position: absolute;
   padding-left: 1em;
 }
-
 
 .friends {
   filter: grayscale(100%);
@@ -48,7 +47,7 @@ html {
   height: 500px;
 }
 .gradient {
-  background: linear-gradient(to right, rgba(253, 245,226,.9), rgba(253, 245,226,.1)), url('../images/cat.jpg');
+  background: linear-gradient(to right,rgba(253, 245,226,.9),rgba(253, 245,226,.1)),url('../images/cat.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -69,12 +68,10 @@ html {
   width: 100%;
 }
 
-
-
 @media only screen and (min-width: 60em) {
 
   .cat {
-    height:700px;
+    height: 700px;
   }
 
 }
