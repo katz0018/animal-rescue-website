@@ -11,6 +11,10 @@ nav ul li a:hover {
   border-bottom: 2px solid #000;
 }
 
+nav ul li a:focus {
+  border-bottom: 2px solid #555;
+}
+
 html {
   font-family: Open Sans, sans-serif;
 }
