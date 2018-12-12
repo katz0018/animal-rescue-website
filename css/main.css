@@ -44,7 +44,11 @@ html {
 }
 
 .width {
-  width: 30%;
+  width: 100%;
+}
+
+.peta {
+  line-height: 5.225rem;
 }
 
 .btn {
@@ -83,10 +87,98 @@ html {
   width: 100%;
 }
 
+.nav-gut {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.nav-stack li {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-stack {
+  display: block;
+  text-align: center;
+  padding-left: 0;
+}
+
+.nav-stack li {
+  background-color: rgba(142, 187, 188, .9);
+}
+
+.nav-stack li:hover {
+  background-color: #ffff;
+}
+
+.nav-stack > li::before {
+  content: "";
+}
+
+.widthy {
+  width: 80%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.button-nav {
+  padding: .5em;
+}
+
+.volun {
+  visibility: hidden;
+  width: 10%;
+}
+
+.about-us {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav-gut {
+  }
+
+  .nav-stack li{
+    display: inline;
+    text-align: right;
+    background-color: transparent;
+  }
+
+  .nav-stack li:hover {
+    background-color: #ffff;
+    background-color: transparent;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .cat {
     height: 700px;
   }
 
+  .widthy {
+    width: 50%;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .width {
+    width: 30%;
+  }
+
+  .volun {
+    visibility: visible;
+    width: 50%
+  }
+
+  .about-us {
+    text-align: left;
+  }
 }
